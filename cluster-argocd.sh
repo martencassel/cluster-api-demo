@@ -35,7 +35,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   source:
     path: mgmt
-    repoURL: 'https://github.com/piomin/sample-kubernetes-cluster-api-argocd.git'
+    repoURL: 'https://github.com/martencassel/cluster-api-demo.git'
     targetRevision: HEAD
   project: default
 EOF
@@ -55,7 +55,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   source:
     path: mgmt
-    repoURL: 'https://github.com/piomin/sample-kubernetes-cluster-api-argocd.git'
+    repoURL: 'https://github.com/martencassel/cluster-api-demo.git'
     targetRevision: HEAD
   project: default
 EOF
